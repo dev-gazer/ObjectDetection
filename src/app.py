@@ -1,9 +1,6 @@
 from flask import Flask, render_template, Response
 from camera import VideoCamera
-import cv2 as cv
-
-#to run on docker, type sudo docker run -it -p 5000:5000 --device /dev/video0 camera
-
+#to run on docker, type sudo docker run -it -p 5000:5000 --device /dev/video0 mustang
 app = Flask(__name__)
 
 @app.route('/')
@@ -11,7 +8,6 @@ def index():
     return render_template('index.html')
 
 def gen(camera):
-    #camera.identify_camera()
     while True:
         frame = camera.identify_camera()
         yield (b'--frame\r\n'
