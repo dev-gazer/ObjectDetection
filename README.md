@@ -1,5 +1,5 @@
 # ObjectDetection
-Sure, a basic livestream object detection code with OpenCV, but I bet you weren't able to find one Dockerized and with Flask.
+Sure, a livestream object detection code with OpenCV. I bet you weren't able to find one Dockerized and as a Web Application, so I decided to make it available for you to try it out!.
 Its window shoud be something like that, maybe less funnier :P:
 ![alt text](https://github.com/martuscellifaria/ObjectDetection/blob/master/how_it_detects.png)
 
