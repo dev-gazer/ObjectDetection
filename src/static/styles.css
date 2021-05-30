@@ -8,7 +8,9 @@ h2 {
   font-size: 120%;
   text-align: center;
 }
-
+.container {
+  justify-content: center;
+}
 .external-grid {
   display: inline-grid;
   grid-template-columns: auto auto;
@@ -46,4 +48,15 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  object-fit: cover;
+}
+
+img {
+  border: 5px solid #555;
 }
