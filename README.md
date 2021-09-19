@@ -1,10 +1,10 @@
 # ObjectDetection
 Sure, a livestream object detection code with OpenCV. I bet you weren't able to find one Dockerized and as a Web Application, so I decided to make it available for you to try it out!.
 Its window shoud be something like that, maybe less funnier :P:
-![alt text](https://github.com/martuscellifaria/ObjectDetection/blob/master/how_it_detects.png)
+![alt text](https://github.com/dev-gazer/ObjectDetection/blob/master/how_it_detects.png)
 
 The output on Telegram, on the other hand, will be something like this:
-![alt text](https://github.com/martuscellifaria/ObjectDetection/blob/master/output_on_telegram.jpg)
+![alt text](https://github.com/dev-gazer/ObjectDetection/blob/master/output_on_telegram.jpg)
 
 ### Installation
 ##### Prerequisites
