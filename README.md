@@ -14,7 +14,7 @@ The output on Telegram, on the other hand, will be something like this:
 ##### Clone the project
 
 ```sh
-$ git clone https://github.com/martuscellifaria/ObjectDetection.git
+$ git clone https://github.com/dev-gazer/ObjectDetection.git
 ```
 
 
